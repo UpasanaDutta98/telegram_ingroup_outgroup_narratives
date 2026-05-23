@@ -38,11 +38,11 @@ Annotations were validated against human labels (see paper for more details).
 
 ```
 data/
-├── type_proudboys_annotations.csv
-├── type_qanon_annotations.csv
-├── type_covid19_annotations.csv
-├── type_whitesupr_annotations.csv
-└── type_maga_annotations.csv
+├── covid_dataset.csv
+├── qanon_dataset.csv
+├── white_dataset.csv
+├── maga_dataset.csv
+└── proudboys_dataset.csv
 ```
 
 ## Citation
