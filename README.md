@@ -19,8 +19,14 @@ Raw message text is **not included** in compliance with Telegram's Terms of Serv
 
 Each message is annotated along three dimensions using a GPT-5-nano zero-shot classification framework:
 
+id	channel_id	channel_name	date	
+
 | Field | Description |
 |---|---|
+| id | message id |
+| channel_id | channel id |
+| channel_name | channel name |
+| date | date of posting |
 | `Standardized_Core_Stance_Label` | Ingroup Heroism, Ingroup Victimhood, Outgroup Moral Condemnation, Outgroup Threat, Outgroup Hate, or None |
 | `Standardized_Outgroup_Target_Type` | Political/Cultural Group, Social/Ethnic Group, Institutions & Elites, Unspecified Enemy, or None |
 | `Standardized_Ingroup_Focus_Type_Label` | Political/Ideological Activism, Social/Ethnic Group, Institutions & Elites, National Citizens, Unspecified, or None |
