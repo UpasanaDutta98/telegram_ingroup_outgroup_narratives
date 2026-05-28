@@ -17,9 +17,7 @@ Raw message text is **not included** in compliance with Telegram's Terms of Serv
 
 ## Annotations
 
-Each message is annotated along three dimensions using a GPT-5-nano zero-shot classification framework:
-
-id	channel_id	channel_name	date	
+Each message is annotated along four dimensions using a GPT-5-nano zero-shot classification framework:	
 
 | Field | Description |
 |---|---|
